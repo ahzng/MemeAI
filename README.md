@@ -1,2 +1,2 @@
-# Number-AI
+# Math-AI
 
