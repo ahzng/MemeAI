@@ -1,2 +1,2 @@
-# AI-Number-Reader
+# Number-AI
 coming soon
