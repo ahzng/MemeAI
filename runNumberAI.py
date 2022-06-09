@@ -6,7 +6,7 @@ np.set_printoptions(threshold=sys.maxsize) # print entire array
 #np.set_printoptions(threshold = False) # print truncated array
 
 # Iterations
-numIters = 800
+numIters = 1000
 
 # Learning rate
 alpha = 0.8
@@ -15,10 +15,8 @@ alpha = 0.8
 lamb = 1
 
 # Load matlab data
-#mat1 = loadmat("ex3data1.mat")
-#mat2= loadmat("ex3weights.mat")
 mat1 = loadmat("ex4data1.mat")
-mat2= loadmat("ex4weights.mat")
+mat2 = loadmat("ex4weights.mat")
 
 ################################################## DEFINE ##################################################
 
@@ -32,8 +30,8 @@ X = np.insert(X, 0, 1, axis=1) # Insert bias feature to make 5000x401 2d numpy
 y = mat1["y"] # 5000x1 2d numpy
 
 # Parameters
-Theta1 = mat2["Theta1"] # 25x401 matrix
-Theta2 = mat2["Theta2"] # 10x26 matrix
+#Theta1 = mat2["Theta1"] # 25x401 matrix
+#Theta2 = mat2["Theta2"] # 10x26 matrix
 
 # Neural network structure
 m = X.shape[0] # Number of training examples
@@ -54,9 +52,26 @@ Theta2 = initWeights(numHidden,numClasses) # Returns numClasses by numHidden+1 m
 
 # Optimize weights
 Theta1, Theta2, J_hist = regGradDesc(X, y, Theta1, Theta2, alpha, lamb, numIters)
-print(J_hist)
-print()
+
+# Save learned weights in csv files for future use
+np.savetxt("Theta1.csv", Theta1, delimiter=",")
+np.savetxt("Theta2.csv", Theta2, delimiter=",")
 
 # Check accuracy
 pred = listOfPredictions(X, Theta1, Theta2)
 print(checkAcc(pred,y))
+
+# Uncomment to plot speed of convergence
+
+x = np.arange(0, numIters + 1)
+plt.plot(x,J_hist, label='0.8')
+
+plt.style.use('seaborn-whitegrid')
+plt.xlabel('Iterations')
+plt.ylabel('Error')
+plt.title('Speed of convergence')
+plt.xlim(0, numIters + 1)
+plt.grid(True)
+plt.tight_layout()
+plt.legend()
+plt.show()
