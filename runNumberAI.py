@@ -33,9 +33,7 @@ df2 = pd.read_csv('Theta2.csv') # Learned weights
 
 # Convert the appropriate data in dataframe to numpy 2d array
 Theta1 = df1.loc[:,:].to_numpy()
-Theta1 = Theta1.astype(float)
 Theta2 = df2.loc[:,:].to_numpy()
-Theta2 = Theta2.astype(float)
 
 # 5000x400 matrix (5000 training examples with 400 features each)
 # Each feature is a grayscale pixel value in a 20x20 image
@@ -49,8 +47,8 @@ y = mat1["y"] # 5000x1 2d numpy
 
 # Take a random sample of X and y to reduce computing time
 # Can take multiple different samples and use them one at a time, results should be similar
-sampSize = 1000
-X_samp, y_samp = sample(X,y,sampSize) # X_samp is 100x401, Y_samp is 100x1
+#sampSize = 1000
+#X_samp, y_samp = sample(X,y,sampSize) # X_samp is 100x401, Y_samp is 100x1
 
 # Initial guess for theta
 #Theta1 = initWeights(numInputs,numHidden) # Returns numHidden by numInputs+1 matrix of weights (inc bias)
@@ -61,11 +59,13 @@ X_samp, y_samp = sample(X,y,sampSize) # X_samp is 100x401, Y_samp is 100x1
 # Optimize weights
 #Theta1, Theta2, J_hist = regGradDesc(X, y, Theta1, Theta2, alpha, lamb, numIters)
 
-'''
-# Save learned weights in csv files for future use
-np.savetxt("Theta1.csv", Theta1, delimiter=",")
-np.savetxt("Theta2.csv", Theta2, delimiter=",")
-'''
+
+# Save data for future use
+#np.savetxt("trainingSet1.csv", X, delimiter=",") # X includes bias
+#np.savetxt("classes1.csv", y, delimiter=",")
+#np.savetxt("Theta1.csv", Theta1, delimiter=",")
+#np.savetxt("Theta2.csv", Theta2, delimiter=",")
+
 
 # Check accuracy
 pred = listOfPredictions(X, Theta1, Theta2)
