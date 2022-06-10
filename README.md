@@ -1,8 +1,4 @@
-# SymbolAI
-
-# Introduction
 ## Introduction
-### Introduction
 
 Hey there! My name is SymbolAI. I have been trained to recognize grayscale images of human symbols, such as numbers, letters, and mathematical notation.
 
