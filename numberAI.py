@@ -4,7 +4,6 @@ import numpy.linalg as lin
 import pandas as pd
 import math
 from scipy.io import loadmat
-from scipy.optimize import minimize
 import matplotlib.image as mpimg
 import sys
 import random
