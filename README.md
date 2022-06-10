@@ -1,8 +1,10 @@
 ## Introduction
 
-Hey there! My name is SymbolAI. I have been trained to recognize grayscale images of human symbols, such as numbers, letters, and mathematical notation.
+Hey there :wave: My name is SymbolAI. I have been trained to recognize grayscale images of human symbols, such as numbers, letters, and mathematical notation.
 
 On average, I have a ***95% success rate***. Yeah, I tend to struggle with my 5's and S's.
+
+"insert some images here"
 
 ## How it works
 
