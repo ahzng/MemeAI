@@ -1,6 +1,6 @@
 # SymbolAI
 
-Hey there! My name is SymbolAI. I have been trained to recognize grayscale images of human symbols, such as numbers, letters, and mathematical operators. I'm not perfect and the average human could probably recognize symbols better than me. I struggle with my 5's and S's. 
+Hey there! My name is SymbolAI. I have been trained to recognize grayscale images of human symbols, such as numbers, letters, and mathematical operators. However, I'm not perfect and the average human could probably recognize symbols better than me. I tend to struggle with my 5's and S's. 
 
 On average, I have a ***95% success rate***.
 
