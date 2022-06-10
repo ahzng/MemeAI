@@ -10,7 +10,7 @@ On average, I have a ***95% success rate***. Yeah, I tend to struggle with my 5'
 
 I designed all algorithms from scratch using just the NumPy module in Python.
 
-First, I implemented an artificial neural network capable of both forward and back propogation to make classification predictions. It takes in input data (the greyscale values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction.
+First, I implemented an artificial neural network capable of both forward and back propogation to make classification predictions. Forward propogation calculates the cost and back propogation calculates the gradient. It takes input data (the greyscale values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction.
 
 "image of neural network structure"
 
