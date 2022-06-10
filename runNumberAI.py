@@ -22,18 +22,18 @@ lamb = 1
 # Read data
 mat1 = loadmat("ex4data1.mat")
 mat2 = loadmat("ex4weights.mat")
-df1 = pd.read_csv('Theta1.csv') # Learned weights
-df2 = pd.read_csv('Theta2.csv') # Learned weights
+df1 = pd.read_csv('Theta1.csv') # Learned weights from my algorithms
+df2 = pd.read_csv('Theta2.csv') # Learned weights from my algorithms
 
 ################################################## DEFINE ##################################################
-
-# Parameters
-#Theta1 = mat2["Theta1"] # 25x401 matrix
-#Theta2 = mat2["Theta2"] # 10x26 matrix
 
 # Convert the appropriate data in dataframe to numpy 2d array
 Theta1 = df1.loc[:,:].to_numpy()
 Theta2 = df2.loc[:,:].to_numpy()
+
+# Learned weights from external algorithms
+#Theta1 = mat2["Theta1"] # 25x401 matrix
+#Theta2 = mat2["Theta2"] # 10x26 matrix
 
 # 5000x400 matrix (5000 training examples with 400 features each)
 # Each feature is a grayscale pixel value in a 20x20 image
@@ -47,8 +47,8 @@ y = mat1["y"] # 5000x1 2d numpy
 
 # Take a random sample of X and y to reduce computing time
 # Can take multiple different samples and use them one at a time, results should be similar
-#sampSize = 1000
-#X_samp, y_samp = sample(X,y,sampSize) # X_samp is 100x401, Y_samp is 100x1
+sampSize = 1000
+X_samp, y_samp = sample(X,y,sampSize) # X_samp is 100x401, Y_samp is 100x1
 
 # Initial guess for theta
 #Theta1 = initWeights(numInputs,numHidden) # Returns numHidden by numInputs+1 matrix of weights (inc bias)
