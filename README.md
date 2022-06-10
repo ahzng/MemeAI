@@ -1,4 +1,4 @@
-# Number AI
+# Symbol AI
 
 
 95.3%
