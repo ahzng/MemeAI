@@ -18,7 +18,7 @@ We implement an artificial neural network capable of both forward and back propo
 
 Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, we implement a gradient descent algorithm to minimize the cost function. Over time, it takes more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in the neural network.
 
-*Error decreases over time due to gradient descent for single digit recognition training session*
+*Error decreases over time due to gradient descent for single digit recognition training session (learning rate alpha = 0.8)*
 
 <img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="500">
 
