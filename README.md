@@ -50,7 +50,7 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 - Regularization parameter lambda = 
 - Ran gradient descent for 1000 iterations
 
-***FINAL TRAINING ACCURACY: ***
+***FINAL TRAINING ACCURACY: 1000000000000000000000000000000000000000000000000000%***
 
 ## Conclusion/Future Work
 
