@@ -24,14 +24,14 @@ For each training session, we use a training set with thousands of training exam
 
 The training set we use is obtained from data provided by Stanford's "Machine Learning" course on Coursera. Created by our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
 
+*Neural network structure*
+
 - 5000 training examples with 400 features each
 - 10 classes (to represent 10 single digits)
 - Learning rate alpha = 0.8
 - Regularization parameter lambda = 1
 - Ran gradient descent for 1000 iterations
 - ***Final training accuracy: 95.3%***
-
-*Neural network structure*
 
 *Error appears to reach a minimum around 1000 iterations of gradient descent.*
 
