@@ -1,6 +1,6 @@
 ## Introduction
 
-:wave:Hey there! My name is SymbolAI. I have been trained to recognize images of human symbols, such as numbers, letters, and mathematical notation.
+:wave:Hey there! My name is SymbolAI. I have been trained to recognize images of single digit numbers and mathematical notation.
 
 On average, I have a ***95% success rate***.
 
