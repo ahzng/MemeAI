@@ -16,7 +16,7 @@ First, I implemented an artificial neural network capable of both forward and ba
 
 Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, I implemented a gradient descent algorithm to minimize the cost function. Over time, I took more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in my neural network.
 
-A training session for single digit recognition. The cost appears to converge and reach a minimum around 1000 iterations of gradient descent.
+*A training session for single digit recognition. The cost appears to converge and reach a minimum around 1000 iterations of gradient descent.*
 
 ![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
 
@@ -24,9 +24,9 @@ Using the optimized parameters, SymbolAI is now able to venture past the trainin
 
 ## Putting It Into Practice
 
-For each type, we use a training set with thousands of training examples and 400 features each (to represent the 400 pixels that make up the image).
+For each training session, we use a training set with thousands of training examples and 400 features each (to represent the 400 pixels that make up the image).
 
-### Training single digit image recognition:
+### Session 1: Training single digit image recognition
 
 The training set we use is obtained from data provided by Andrew Ng's Machine Learning course on Coursera. Created by our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
 
@@ -35,11 +35,11 @@ I set the learning rate alpha = 0.8, regularization parameter lambda = 1, and ra
 ***Training accuracy using gradient descent: 95.3%***
 
 
-### Training letter recognition:
+### Session 2: Training letter recognition
 
 - coming soon
 
-### Training mathematical symbol recognition:
+### Session 3: Training mathematical symbol recognition
 
 - coming soon
 
