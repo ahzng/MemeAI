@@ -28,7 +28,7 @@ Using the optimized parameters, SymbolAI is now able to venture past the trainin
 
 ## Putting It Into Practice
 
-For each training session, we use a training set with thousands of training examples and 400 features each (to represent the 400 pixels that make up the image).
+For each training session, we use a training set with hundreds to thousands of training examples and 400 features each (to represent the 400 pixels that make up the image).
 
 ### Session 1: Training single digit image recognition
 
