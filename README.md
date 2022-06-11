@@ -20,6 +20,8 @@ Using the optimized parameters, SymbolAI is now able to venture past the trainin
 
 For each training session, we use a training set with thousands of training examples and 400 features each (to represent the 400 pixels that make up the image).
 
+---
+
 ### Session 1: Training single digit image recognition
 
 The training set we use is obtained from data provided by Stanford's "Machine Learning" course on Coursera. Created by our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
@@ -38,8 +40,6 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 <img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="500">
 
----
-
 ***FINAL TRAINING ACCURACY: 95.3%***
 
 ---
@@ -48,9 +48,13 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 - coming soon
 
+---
+
 ### Session 3: Training mathematical symbol recognition
 
 - coming soon
+
+---
 
 ## Conclusion/Future Work
 
