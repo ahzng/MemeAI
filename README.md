@@ -1,6 +1,6 @@
 ## Introduction
 
-:wave:Hey there! My name is SymbolAI. I have been trained to recognize 20x20 pixel images of single digit numbers and mathematical notation.
+:wave:Hey there! My name is SymbolAI. I have been trained to recognize 20x20 pixel images of single digit numbers and mathematical operators to make basic arithmatic calculations.
 
 On average, I have a ***95% success rate***.
 
