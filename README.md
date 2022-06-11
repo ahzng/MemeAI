@@ -10,13 +10,13 @@ On average, I have a ***95% success rate***. Yeah, I tend to struggle with my 5'
 
 I designed all algorithms from scratch using just the NumPy module in Python. To make the process more efficient, I have developed several cases of vectorization and matrix multiplication where applicable.
 
-We implement an artificial neural network capable of both forward and back propogation to make classification predictions. It takes input data (the greyscale values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction.
+We implement an artificial neural network capable of both forward and back propogation to make classification predictions. It takes input data (the greyscale values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction. Forward propogation acts as the thought process of SymbolAI in making a prediction, and back propogation acts as feedback by contributing to computing the gradient of the cost.
 
 *Neural network structure for single digit recognition training session*
 
 <img width="360" alt="image" src="https://user-images.githubusercontent.com/106856325/173197002-c5241e06-d84e-4c4c-8853-ced0647d48da.png">
 
-Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, we implement a gradient descent algorithm to minimize the cost function. Over time, it takes more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in the neural network.
+Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, we implement a gradient descent algorithm to minimize the cost function. Over time, it takes more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in the neural network. The larger the learning rate, the bigger (but less precise) steps it takes.
 
 *Error decreases over time due to gradient descent for single digit recognition training session (learning rate alpha = 0.8)*
 
