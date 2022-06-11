@@ -39,7 +39,7 @@ The training set we use is obtained from data provided by Andrew Ng's Machine Le
 - Regularization parameter lambda = 1
 - Ran gradient descent for 1000 iterations
 
-The cost appears to converge and reach a minimum around 1000 iterations of gradient descent.*
+*Error appears to reach a minimum around 1000 iterations of gradient descent.*
 
 ![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
 
