@@ -38,7 +38,7 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 <img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="500">
 
-***TRAINING ACCURACY: 95.3%***
+***FINAL TRAINING ACCURACY: 95.3%***
 
 ### Session 2: Training letter recognition
 
