@@ -2,7 +2,9 @@
 
 :wave:Hey there! My name is SymbolAI. I have been trained to recognize greyscale images of human symbols, such as numbers, letters, and mathematical notation.
 
-On average, I have a ***95% success rate***. Yeah, I tend to struggle with my 5's and S's.
+On average, I have a ***95% success rate***.
+
+*Examples of images that I can read*
 
 <img src="https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png" width="500">
 
