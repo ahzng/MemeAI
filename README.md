@@ -26,7 +26,7 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 *Neural network structure*
 
-<img src="https://user-images.githubusercontent.com/106856325/173196847-be65bf9d-b787-48f8-8b19-20d7356e9175.png" width="500">
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/106856325/173197002-c5241e06-d84e-4c4c-8853-ced0647d48da.png">
 
 - 5000 training examples with 400 features each
 - 10 classes (to represent 10 single digits)
@@ -37,7 +37,7 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 *Error appears to reach a minimum around 1000 iterations of gradient descent.*
 
-<img width="360" alt="image" src="https://user-images.githubusercontent.com/106856325/173197002-c5241e06-d84e-4c4c-8853-ced0647d48da.png">
+
 
 ### Session 2: Training letter recognition
 
