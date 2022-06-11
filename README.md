@@ -26,7 +26,7 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 *Neural network structure*
 
-<img width="371" alt="image" src="https://user-images.githubusercontent.com/106856325/173196830-08c0e91d-143d-4ef2-b205-28eb86ba19a4.png">
+<img src="https://user-images.githubusercontent.com/106856325/173196847-be65bf9d-b787-48f8-8b19-20d7356e9175.png" width="500">
 
 - 5000 training examples with 400 features each
 - 10 classes (to represent 10 single digits)
