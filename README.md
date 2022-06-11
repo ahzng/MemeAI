@@ -12,7 +12,15 @@ I designed all algorithms from scratch using just the NumPy module in Python. To
 
 We implement an artificial neural network capable of both forward and back propogation to make classification predictions. It takes input data (the greyscale values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction.
 
+*Neural network structure for single digit recognition training session*
+
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/106856325/173197002-c5241e06-d84e-4c4c-8853-ced0647d48da.png">
+
 Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, we implement a gradient descent algorithm to minimize the cost function. Over time, it takes more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in the neural network.
+
+*Error decreases over time due to gradient descent for single digit recognition training session*
+
+<img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="500">
 
 Using the optimized parameters, SymbolAI is now able to venture past the training data and make pretty accurate predictions on totally unique images that it has never encountered before!
 
@@ -31,14 +39,6 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 - Learning rate alpha = 0.8
 - Regularization parameter lambda = 1
 - Ran gradient descent for 1000 iterations
-
-*Neural network structure*
-
-<img width="360" alt="image" src="https://user-images.githubusercontent.com/106856325/173197002-c5241e06-d84e-4c4c-8853-ced0647d48da.png">
-
-*Error decreases over time due to gradient descent*
-
-<img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="500">
 
 ***FINAL TRAINING ACCURACY: 95.3%***
 
