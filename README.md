@@ -1,13 +1,13 @@
 ## Introduction
 
-:wave:Hey there! My name is SymbolAI. I have been trained to recognize 20x20 pixel images of human symbols.
+SymbolAI is an artificial intelligence that trained to recognize 20x20 pixel images of human symbols.
 
-Symbols I can currently recognize:
+Symbols it can currently recognize:
 - Single digit numbers
 
-On average, I have a ***95% success rate***.
+On average, SymbolAI have a ***95% success rate***.
 
-*Examples of images that I can read.*
+*Examples of images that it can read.*
 
 <img src="https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png" width="500">
 
