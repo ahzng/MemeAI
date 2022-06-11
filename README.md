@@ -26,7 +26,7 @@ Using the optimized parameters, SymbolAI is now able to venture past the trainin
 
 - Learned parameters can be referenced in Theta1.csv and Theta2.csv
 - Training accuracy: 95.3%
-- ![Figure_10](https://user-images.githubusercontent.com/106856325/172764862-041f9e4f-55d0-497e-90b5-0dbaf7dac64e.png =250x250)
+- ![Figure_10](https://user-images.githubusercontent.com/106856325/172764862-041f9e4f-55d0-497e-90b5-0dbaf7dac64e.png | width=100)
 
 
 ### Training letter recognition:
