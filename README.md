@@ -40,11 +40,11 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 ***FINAL TRAINING ACCURACY: 95.3%***
 
-### Session 2: Training letter recognition
+### Session 2: Training mathematical symbol recognition
 
 - coming soon
 
-### Session 3: Training mathematical symbol recognition
+### Session 3: Training letter recognition
 
 - coming soon
 
