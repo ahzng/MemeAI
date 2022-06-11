@@ -4,7 +4,7 @@
 
 On average, I have a ***95% success rate***.
 
-*Examples of images that I can read*
+*Examples of images that I can read.*
 
 <img src="https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png" width="500">
 
