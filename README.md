@@ -1,6 +1,6 @@
 ## Introduction
 
-SymbolAI is an artificial intelligence that trained to recognize 20x20 pixel images of human symbols.
+SymbolAI is an AI trained to recognize 20x20 pixel images of human symbols.
 
 Symbols it can currently recognize:
 - Single digit numbers
