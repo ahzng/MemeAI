@@ -18,7 +18,7 @@ Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and ra
 
 A training session for single digit recognition. The cost appears to converge and reach a minimum around 800-1000 iterations.
 
-![Figure_10](https://user-images.githubusercontent.com/106856325/172764862-041f9e4f-55d0-497e-90b5-0dbaf7dac64e.png)
+![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
 
 Using the optimized parameters, SymbolAI is now able to venture past the training data and make pretty accurate predctions on totally unique images that it has never encountered before!
 
