@@ -4,7 +4,7 @@
 
 On average, I have a ***95% success rate***. Yeah, I tend to struggle with my 5's and S's.
 
-![Figure_12](https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png)
+<img src="https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png" width="500">
 
 ## How It Works
 
