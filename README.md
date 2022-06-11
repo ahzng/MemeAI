@@ -4,7 +4,7 @@
 
 Symbols I can currently recognize:
 - Single digit numbers
-- More symbols coming soon
+- (More symbols coming soon)
 
 On average, I have a ***95% success rate***.
 
