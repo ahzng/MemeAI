@@ -4,7 +4,6 @@
 
 Symbols I can currently recognize:
 - Single digit numbers
-- (More symbols coming soon)
 
 On average, I have a ***95% success rate***.
 
@@ -45,16 +44,6 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 - Ran gradient descent for 1000 iterations
 
 ***FINAL TRAINING ACCURACY: 95.3%***
-
-### Session 2: Training mathematical symbol recognition
-
-- 3000 training examples with 400 features each
-- 6 classes (to represent +, -, •, x, ÷, /)
-- Learning rate alpha = coming soon
-- Regularization parameter lambda = coming soon
-- Ran gradient descent for 1000 iterations
-
-***FINAL TRAINING ACCURACY: coming soon%***
 
 ## Conclusion/Future Work
 
