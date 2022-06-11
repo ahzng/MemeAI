@@ -28,5 +28,7 @@ Here are the results from using a training set of 5000 training examples with 40
 
 ## Conclusion/Future Work
 
-- Plans to to implement an interactive feature where the user can draw their own images will be made.
-- PLans to extend image complexity by introducing RGB pixels.
+SymbolAI demonstrates the incredible potential that AI computer vision can have. If humanity wants to create embodied autonomous systems that change the world, visual sensors will be an absolutely crucial component.
+
+- Plans to to implement an interactive feature where the user can draw their own images.
+- Plans to extend image complexity by introducing RGB pixels.
