@@ -37,7 +37,7 @@ The cost appears to converge and reach a minimum around 1000 iterations of gradi
 
 ![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
 
-***Training accuracy using gradient descent: 95.3%***
+***Final training accuracy: 95.3%***
 
 
 ### Session 2: Training letter recognition
