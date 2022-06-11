@@ -44,11 +44,13 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 ### Session 2: Training mathematical symbol recognition
 
-- classes (to represent +, -, •, x, ÷, /)
+- 300 training examples with 400 features each
+- 6 classes (to represent +, -, •, x, ÷, /)
+- Learning rate alpha = 
+- Regularization parameter lambda = 
+- Ran gradient descent for 1000 iterations
 
-### Session 3: Training letter recognition
-
-- coming soon
+***FINAL TRAINING ACCURACY: ***
 
 ## Conclusion/Future Work
 
