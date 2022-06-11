@@ -28,5 +28,5 @@ Here are the results from using a training set of 5000 training examples with 40
 
 ## Conclusion/Future Work
 
-- interactive feature
-- rgb
+- Plans to to implement an interactive feature where the user can draw their own images will be made.
+- PLans to extend image complexity by introducing RGB pixels.
