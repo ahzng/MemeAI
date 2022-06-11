@@ -16,7 +16,7 @@ First, I implemented an artificial neural network capable of both forward and ba
 
 Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, I implemented a gradient descent algorithm to minimize the cost function. Over time, I took more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in my neural network.
 
-Using the optimized parameters, SymbolAI is now able to venture past the training data and make pretty accurate predctions on totally unique images that it has never encountered before!
+Using the optimized parameters, SymbolAI is now able to venture past the training data and make pretty accurate predictions on totally unique images that it has never encountered before!
 
 ## Putting It Into Practice
 
