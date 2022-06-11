@@ -4,7 +4,7 @@
 
 On average, I have a ***95% success rate***. Yeah, I tend to struggle with my 5's and S's.
 
-"insert some images of test data here"
+![Figure_12](https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png)
 
 ## How It Works
 
@@ -33,7 +33,7 @@ For each training session, we use a training set with thousands of training exam
 The training set we use is obtained from data provided by Stanford's "Machine Learning" course on Coursera. Created by our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
 
 - 5000 training examples with 400 features each
-- 10 classes (to represent 10 single digits)
+- 10 classes (to represent digits 0,1,2,3,4,5,6,7,8,9)
 - Learning rate alpha = 0.8
 - Regularization parameter lambda = 1
 - Ran gradient descent for 1000 iterations
@@ -42,7 +42,7 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 ### Session 2: Training mathematical symbol recognition
 
-- coming soon
+- classes (to represent +, -, •, x, ÷, /)
 
 ### Session 3: Training letter recognition
 
