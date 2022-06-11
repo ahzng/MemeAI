@@ -16,9 +16,7 @@ First, I implemented an artificial neural network capable of both forward and ba
 
 Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, I implemented a gradient descent algorithm to minimize the cost function. Over time, I took more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in my neural network.
 
-*A training session for single digit recognition. The cost appears to converge and reach a minimum around 1000 iterations of gradient descent.*
-
-![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
+""
 
 Using the optimized parameters, SymbolAI is now able to venture past the training data and make pretty accurate predctions on totally unique images that it has never encountered before!
 
@@ -34,6 +32,10 @@ The training set we use is obtained from data provided by Andrew Ng's Machine Le
 - Learning rate alpha = 0.8
 - Regularization parameter lambda = 1
 - Ran gradient descent for 1000 iterations
+
+The cost appears to converge and reach a minimum around 1000 iterations of gradient descent.*
+
+![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
 
 ***Training accuracy using gradient descent: 95.3%***
 
