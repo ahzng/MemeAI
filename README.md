@@ -30,7 +30,10 @@ For each training session, we use a training set with thousands of training exam
 
 The training set we use is obtained from data provided by Andrew Ng's Machine Learning course on Coursera. Created by our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
 
-I set the learning rate alpha = 0.8, regularization parameter lambda = 1, and ran gradient descent for 1000 iterations.
+- 5000 training examples with 400 features each
+- Learning rate alpha = 0.8
+- Regularization parameter lambda = 1
+- Ran gradient descent for 1000 iterations
 
 ***Training accuracy using gradient descent: 95.3%***
 
