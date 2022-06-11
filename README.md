@@ -35,7 +35,7 @@ The training set we use is obtained from data provided by Andrew Ng's Machine Le
 
 ![Figure_11](https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png)
 
-![Figure_11]<img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="100">
+<img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="400">
 
 ***Final training accuracy: 95.3%***
 
