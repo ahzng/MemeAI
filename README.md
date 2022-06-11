@@ -20,13 +20,15 @@ Using the optimized parameters, SymbolAI is now able to venture past the trainin
 
 ## Putting It Into Practice
 
+For each type, we use a training set with thousands of training examples and 400 features each (to represent the 400 pixels).
+
 ### Training single digit image recognition:
 
- from using a training set of 5000 training examples of single digit numbers with 400 features each (obtained from data provided by Andrew Ng's Machine Learning course on Coursera):
+The training set we use is obtained from data provided by Andrew Ng's Machine Learning course on Coursera. The resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
 
-- Learned parameters can be referenced in Theta1.csv and Theta2.csv
-- Training accuracy: 95.3%
-- ![Figure_10](https://user-images.githubusercontent.com/106856325/172764862-041f9e4f-55d0-497e-90b5-0dbaf7dac64e.png)
+***Training accuracy: 95.3%***
+
+![Figure_10](https://user-images.githubusercontent.com/106856325/172764862-041f9e4f-55d0-497e-90b5-0dbaf7dac64e.png)
 
 
 ### Training letter recognition:
@@ -39,6 +41,6 @@ Using the optimized parameters, SymbolAI is now able to venture past the trainin
 
 ## Conclusion/Future Work
 
-SymbolAI demonstrates the incredible potential that AI computer vision can have. If humanity wants to create embodied autonomous systems that change the world, visual sensors will be an absolutely crucial component.
+SymbolAI, while primitive in the grand scheme of things, demonstrates the incredible potential that AI computer vision can have. If humanity wants to create embodied autonomous systems that change the world, a fully autonomous global drone transportation system, and robots that do the dangerous, breakbacking dirty work in constructing a self sustainable base on Moon and Mars, visual sensors will be an absolutely crucial component that must be perfected.
 
 Future plans include implementing an interactive feature where the user can draw their own images, and extending image complexity by introducing RGB pixels.
