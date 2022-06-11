@@ -12,7 +12,7 @@ On average, SymbolAI has a ***95% success rate***.
 
 I designed all algorithms from scratch using only the NumPy module in Python. To make the process more efficient, I have developed several cases of vectorization and matrix multiplication where applicable.
 
-We implement an artificial neural network capable of both forward and back propogation to make classification predictions. It takes input data (the values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction. Forward propogation acts as the thought process of SymbolAI in making a prediction, and back propogation acts as feedback by contributing to computing the gradient of the cost.
+We implement an artificial neural network capable of both forward and back propagation to make classification predictions. It takes input data (the values of every single pixel in the 20x20 image), passes through a hidden layer, then gives an output about the probability of each symbol being the actual symbol in the image. The output unit with the highest probability is deemed as the prediction. Forward propagation acts as the thought process of SymbolAI in making a prediction, and back propagation acts as feedback by contributing to computing the gradient of the cost.
 
 *Neural network structure for single digit recognition training session.*
 
