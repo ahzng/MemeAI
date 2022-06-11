@@ -532,3 +532,18 @@ def regGradDesc(X, y, Theta1, Theta2, alpha, lamb, numIters):
         J_hist[k + 1] = regCost
 
     return Theta1, Theta2, J_hist
+
+# Shows a matrix of images of random training examples out of the overall training set
+# To keep consistency from past functions, assume that X includes bias. This function simply deletes the bias bc
+# it is not needed to show images
+def showRandomImages(X,numRows,numCols):
+
+    # Delete bias column bc it is not needed
+    X = np.delete(X,0,axis=1)
+
+    figure, axis = plt.subplots(numRows,numCols,figsize=(8,8))
+    for i in range(numRows):
+        for j in range(numCols):
+            axis[i,j].imshow(X[np.random.randint(0,X.shape[0]+1),:].reshape(20,20,order="F"), cmap="winter") # Reshape to 20x20
+            axis[i,j].axis("off")
+    plt.show()
