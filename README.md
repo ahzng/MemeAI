@@ -32,7 +32,7 @@ For each training session, we use a training set with thousands of training exam
 
 ### Session 1: Training single digit image recognition
 
-The training set we use is obtained from data provided by Stanford's "Machine Learning" course on Coursera. Then, implementing our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
+The training set we use is obtained from MATLAB data provided by Stanford's "Machine Learning" course on Coursera. Then, implementing our gradient descent algorithm, the resulting learned parameters can be referenced in Theta1.csv and Theta2.csv.
 
 - 5000 training examples with 400 features each
 - 10 classes (to represent digits 0,1,2,3,4,5,6,7,8,9)
