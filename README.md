@@ -46,4 +46,4 @@ The training set we use is obtained from data provided by Stanford's "Machine Le
 
 SymbolAI, while primitive in the grand scheme of things, demonstrates the incredible potential that AI computer vision can have. If humanity wants to create embodied autonomous systems that change the world and robots that do the dangerous, backbreaking dirty work in constructing a self sustainable base on Moon and Mars, visual sensors will be an absolutely crucial component that must be perfected.
 
-Future plans include implementing an interactive feature where the user can draw their own images, and extending image complexity by introducing RGB pixels.s
+Future plans include implementing an interactive feature where the user can draw their own images, and extending image complexity by introducing RGB pixels.
