@@ -6,7 +6,7 @@ On average, SymbolAI has a ***95% success rate***.
 
 *Examples of images that it can read.*
 
-<img src="https://user-images.githubusercontent.com/106856325/173201099-184cb968-8f51-42c0-a250-df8d26653efd.png" width="500">
+<img src="https://user-images.githubusercontent.com/106856325/173853045-bdb886f9-eea0-445f-b35e-8f72d841cabf.png" width="800">
 
 ## How It Works
 
