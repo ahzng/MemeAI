@@ -1,10 +1,10 @@
 ## Introduction
 
-SymbolAI is an AI trained to recognize 20x20 pixel images of human symbols.
+An AI trained to recognize 20x20 pixel images of human symbols.
 
-On average, SymbolAI has a ***95% success rate***.
+***On average, a 95% success rate***.
 
-*Examples of images that it can read.*
+*Examples of images that can be read.*
 
 <img src="https://user-images.githubusercontent.com/106856325/173853045-bdb886f9-eea0-445f-b35e-8f72d841cabf.png" width="800">
 
