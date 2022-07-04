@@ -18,13 +18,13 @@ We implement an artificial neural network capable of both forward and back propa
 
 <img width="360" alt="image" src="https://user-images.githubusercontent.com/106856325/173197002-c5241e06-d84e-4c4c-8853-ced0647d48da.png">
 
-Initially, SymbolAI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, we implement a gradient descent algorithm to minimize the cost function. Over time, it takes more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in the neural network. The larger the learning rate, the bigger (but less precise) steps it takes. To prevent the issue of overfitting, we add a regularization term to the cost function.
+Initially, the AI was absolutely clueless, and the guesses were chaotic and random. To teach SymbolAI how to learn, we implement a gradient descent algorithm to minimize the cost function. Over time, it takes more and more steps in the direction of the negative gradient to find the optimal weights and biases that minimized error of each output unit in the neural network. The larger the learning rate, the bigger (but less precise) steps it takes. To prevent the issue of overfitting, we add a regularization term to the cost function.
 
 *Error decreases over time due to gradient descent for single digit recognition training session (learning rate alpha = 0.8).*
 
 <img src="https://user-images.githubusercontent.com/106856325/173171486-c9810d2d-65ea-4da1-83fa-682cc5561540.png" width="500">
 
-Using the optimized parameters, SymbolAI is now able to venture past the training data and make pretty accurate predictions on totally unique images that it has never encountered before!
+Using the optimized parameters, the AI is now able to venture past the training data and make pretty accurate predictions on totally unique images that it has never encountered before.
 
 ## Putting It Into Practice
 
