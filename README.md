@@ -1,6 +1,6 @@
 ## Introduction
 
-An AI trained to recognize 20x20 pixel images of human symbols.
+Building computer vision for single digit numbers from scratch.
 
 ***On average, a 95% success rate***.
 
